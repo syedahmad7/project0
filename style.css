@@ -33,6 +33,20 @@ td{
   height: 400px;
   padding-top: 25px;
 }
-#aboutMePic{
-  margin-left: 20px;
+@@media query (min-width: 500px){
+  #aboutMePic{
+    margin-left: 60px;
+  }
+  body{
+    background-color: red;
+  }
+}
+@@media query (max-width: 499px){
+  #aboutMePic{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body{
+    background-color: green;
+  }
 }
