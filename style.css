@@ -1,26 +1,4 @@
-#profilepic{
-  border-radius: 50%;
-  border-width: 20px;
 
-  margin-top: 50px;
-  margin-right: 50px;
-  margin-bottom: 40px;
-  margin-left: 60px;
-  float: left;
-}
-
-#aboutMeHeading{
-  position: relative;
-  padding-top: 100px;
-  text-align: center;
-}
-#aboutMeParagraph{
-  padding: 50px;
-}
-#aboutMe{
-  width: 1500px;
-  word-wrap: break-word;
-}
 #websiteDescription{
   margin-top: 20px;
   font-size: 75px;
@@ -43,4 +21,18 @@ th{
 td{
   text-align: center;
   font-size: 30px;
+}
+#pictureBack{
+  float: left;
+  width: 400px;
+  height: 400px;
+}
+#aboutMeBack{
+  float: right;
+  width: 700px;
+  height: 400px;
+  padding-top: 25px;
+}
+#aboutMePic{
+  margin-left: 20px;
 }
