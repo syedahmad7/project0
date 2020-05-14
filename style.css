@@ -18,7 +18,7 @@ a{
 th{
   padding:0 150px;
 }
-td{
+.homeTable{
   text-align: center;
   font-size: 30px;
 }
