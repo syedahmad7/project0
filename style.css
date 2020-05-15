@@ -33,20 +33,8 @@ th{
   height: 400px;
   padding-top: 25px;
 }
-@@media query (min-width: 500px){
-  #aboutMePic{
-    margin-left: 60px;
-  }
-  body{
-    background-color: red;
-  }
-}
-@@media query (max-width: 499px){
-  #aboutMePic{
-    margin-left: auto;
-    margin-right: auto;
-  }
-  body{
-    background-color: green;
-  }
+#aboutMePic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
