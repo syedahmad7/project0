@@ -1,0 +1,30 @@
+$opac: 0.7;
+%icon{
+  color: #3277a8;
+}
+#websiteDescription{
+  margin-top: 20px;
+  font-size: 75px;
+}
+#homeEmail:hover {
+  @extend %icon;
+  opacity: $opac;
+}
+#homePhone{
+  @extend %icon;
+}
+#homeLinkedIn:hover{
+  opacity: $opac;
+}
+div{
+  a{
+    color: #3277a8;
+  }
+  th{
+    padding:0 150px;
+  }
+}
+.homeTable{
+  text-align: center;
+  font-size: 30px;
+}

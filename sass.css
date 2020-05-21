@@ -1,0 +1,23 @@
+#homeEmail:hover, #homePhone {
+  color: #3277a8; }
+
+#websiteDescription {
+  margin-top: 20px;
+  font-size: 75px; }
+
+#homeEmail:hover {
+  opacity: 0.7; }
+
+#homeLinkedIn:hover {
+  opacity: 0.7; }
+
+div a {
+  color: #3277a8; }
+div th {
+  padding: 0 150px; }
+
+.homeTable {
+  text-align: center;
+  font-size: 30px; }
+
+/*# sourceMappingURL=sass.css.map */
